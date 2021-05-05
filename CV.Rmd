@@ -33,7 +33,7 @@ packages <- c('vitae'     # The CV's LaTeX Template
 
 xfun::pkg_attach2(packages, message = FALSE)
 
-source(file = here("r","data.r"))
+source(file = here("r","data.r"), encoding = "UTF-8")
 
 ```
 
